@@ -120,6 +120,10 @@ footer {
     margin-top: 30px;
 }
 
+.logo {
+    padding-left: 47%;
+}
+
 .textoFooter {
     color: white;
 }
@@ -137,13 +141,7 @@ footer {
     align-items: center;
 }
 
-.logo {
-    display: flex;
-    color: rgb(7, 133, 112);
-    font-size: 48px;
-    align-items: center;
-    padding-left: 604px;
-}
+
 
 .nav-list {
     display: flex;
@@ -179,6 +177,10 @@ footer {
 }
 
 @media (max-width: 1920px) {
+
+    .logo {
+        padding-left: 47%;
+    }
 
     .hamburguer {
         display: block;
@@ -264,6 +266,10 @@ footer {
 
 
 @media (max-width: 750px) {
+
+    .logo {
+        padding-left: 42%;
+    }
 
     .hamburguer {
         display: block;
