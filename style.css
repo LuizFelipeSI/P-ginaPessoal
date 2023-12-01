@@ -50,6 +50,7 @@ body {
 
 .p1 {
     text-align: center;
+    margin: 30px;
 }
 
 .subtitle {
@@ -194,7 +195,7 @@ footer {
         width: 100vw;
         height: 80vh;
         background: grey;
-        clip-path: circle(150px at 100% -10%);
+        clip-path: circle(0px at 100% -10%);
         transition: 1s ease-out;
 
         flex-direction: column;
@@ -265,7 +266,7 @@ footer {
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 500px) {
 
     .logo {
         padding-left: 42%;
@@ -283,7 +284,7 @@ footer {
         width: 100vw;
         height: 80vh;
         background: grey;
-        clip-path: circle(100px at 100% -5%);
+        clip-path: circle(0px at 100% -5%);
         transition: 1s ease-out;
 
         flex-direction: column;
