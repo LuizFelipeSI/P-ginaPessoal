@@ -7,72 +7,134 @@
     <meta name="description" content="curriculo">
     <meta name="keywords" content="html5, css">
     <title>paginaPessoal</title>
-    <link rel="stylesheet" href="paginaPessoal.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imagens/imagem2.png">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
     <header>
+
+        <nav class="nav">
+            <div class="logo">
+                <img src="imagens/foto.png" alt="">
+            </div>
+            <button class="hamburguer"></button>
+            <ul class="nav-list">
+                <li><a href="">Início</a></li>
+                <li><a href="">Educação</a></li>
+                <li><a href="">Experiência Profissional</a></li>
+                <li><a href="">Habilidades</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+
         <div class="foto">
-            <img src="imagens/foto.png" alt="">
             <h1>Luiz Felipe Fraga Pereira</h1>
+            <p class="p1 subtitle">
+                Rua: Ilonka Horvath Narbot, 65 - Cidade Jardim | Pouso Alegre - MG - CEP: 37556-648 <br><br>
+                E-mail: lfpereira323@gmail.com | Telefone: (35) 99816-4701 <br><br>
+
+            <ul class="menu">
+                <li><a href="https://github.com/LuizFelipeSI" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/luiz-felipe-fraga-pereira-1750a7232/"
+                        target="_blank">Linkedin</a></li>
+            </ul>
+
+
+            </p>
         </div>
     </header>
 
 
-    <p class="p1 subtitle"><br>Brasileiro, solteiro, 25 anos, natural de Pouso Alegre/MG <br><br>
-        Rua: Ilonka Horvath Narbot, 65 - Cidade Jardim <br><br>
-        Pouso Alegre - MG - CEP: 37556-648 <br><br>
-        Cel: (35) 99816-4701 <br><br>
-        E-mail: lfpereira323@gmail.com <br><br>
 
-    </p>
+    <main>
+        <div class="formacao">
 
-    <ul class="menu">
-        <li><a href="https://github.com/LuizFelipeSI" target="_blank">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/luiz-felipe-fraga-pereira-1750a7232/" target="_blank">Linkedin</a></li>
-    </ul>
+            <ul>
+                <h2>Formação</h2>
+                <li>Ensino Médio Completo</li>
+                <br>
+                <li>Aprendizagem em Instalação e Reparação de Redes de Computadores (SENAI)</li>
+                <br>
+                <li>Cursando Sistema de Informação (UNIVAS) – quarto semestre</li>
+                <br>
+                <li>Cursando inglês (Wizard) – segundo ano</li>
+            </ul>
+        </div>
+
+
+        <div class="formacao">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li>
+                    <h3>Operador de Caixa</h3>
+                    <em>Abastecedora Jaborandi Ltda. (Hipermercado Baronesa)</em>
+                    <p>Fev./2014 – Set./2014</p>
+                    <b><i> Recebimento, acerto de contas.</i></b>
+
+                </li>
+                <br>
+                <li>
+                    <h3>Atendente de Balcão</h3>
+                    <em>Raia Drogasil (Farmácias Drogasil)</em>
+                    <p>Maio/2018 – Maio/2022 </p>
+                    <b><i>Atendimento ao cliente, processos administrativos em geral.</i></b>
+                </li>
+                <br>
+                <li>
+                    <h3>Estagiário em TI</h3>
+
+                    <em>Unimed Sul Mineira</em>
+                    <p>Ago./2022 – Até o momento </p>
+                    <b><i> Suporte em infraestrutura e Helpdesk.</i></b>
+                </li>
+            </ul>
+        </div>
 
 
 
-    <h2>Experiência Profissional</h2>
-    <ul>
-        <li><b><i>Fev./2014 – Set./2014</i></b> – <em>Abastecedora Jaborandi Ltda. (Hipermercado Baronesa)</em>
-            <br><b><i>Cargo:</i></b> Operador de Caixa
-            <br><b><i>Atividades:</i></b> Recebimento, acerto de contas.
+        <div class="formacao">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Java</li>
+                <br>
+                <li>C#</li>
+                <br>
+                <li>Banco de dados relacionais (MySQL, PostgreSQL)</li>
+                <br>
+                <li>Gerenciamento de Projetos</li>
+                <br>
+                <li>Desenvolvimento Web (HTML, CSS e JavaS)</li>
+            </ul>
+        </div>
 
-        </li>
-        <br>
-        <li><b><i>Maio/2018 – Maio/2022 </i></b>– <em>Raia Drogasil (Farmácias Drogasil)</em>
-            <br><b><i>Cargo:</i></b> Atendente de Balcão
-            <br><b><i>Atividades:</i></b> Atendimento ao cliente, processos administrativos em geral.
-        </li>
-        <br>
-        <li><b><i>Ago./2022 – Até o momento </i></b>– <em>Unimed Sul Mineira</em>
-            <br><b><i>Cargo:</i></b> Estagiário
-            <br><b><i>Atividades:</i></b> Suporte em infraestrutura e Helpdesk
-        </li>
-    </ul>
 
-    <h2>Formação</h2>
-    <ul>
-        <li>Ensino Médio Completo</li>
-        <br>
-        <li>Aprendizagem em Instalação e Reparação de Redes de Computadores (SENAI)</li>
-        <br>
-        <li>Cursando Sistema de Informação (UNIVAS) – terceiro semestre</li>
-        <br>
-        <li>Cursando inglês (Wizard) – nível básico no momento</li>
-    </ul>
+        <div class="formacao">
+            <h2>Projetos</h2>
+            <ul>
+                <li><a href="https://github.com/LuizFelipeSI/JogoRPG">Pequeno jogo RPG desenvolvido em Java (repositório
+                        no Github)</a></li>
+                <br>
+                <li><a href="https://luizfelipesi.github.io/Unicao/">Site de adoção de cães</a></li>
+                <br>
+                <li><a href="https://github.com/LuizFelipeSI/cat-logo-de-filmes-com-JPA">Catálogo de filmes com JPA
+                        (repositório no Github)</a></li>
+                <br>
+                <li><a href="https://github.com/LuizFelipeSI/workshop-springboot3-jpa">Workshop com JPA utilizando
+                        Spring (repositório no Github)</a></li>
+                <br>
+                <li><a href="https://github.com/LuizFelipeSI/workshop-springboot3-mongodb">Workshop utilizando Spring e
+                        MongoDB (repositório no Github)</a></li>
 
-    <h2>Conecimentos em Programação</h2>
-    <ul>
-        <li>Java</li>
-        <br>
-        <li>C#</li>
-        <br>
-        <li>HTML e CSS</li>
-    </ul>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p class="textoFooter">© 2023 Luiz Felipe Fraga Pereira. Todos os direitos reservados.</p>
+    </footer>
 
 
 
