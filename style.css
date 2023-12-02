@@ -20,9 +20,8 @@ img {
     margin: auto;
     padding-top: 20px;
     border-radius: 100%;
-    width: 70px;
-    height: 70px;
-
+    width: 80px;
+    height: 80px;
 }
 
 h2 {
@@ -271,6 +270,12 @@ footer {
 
 
 @media (max-width: 500px) {
+
+    .menu a {
+        background-color: white;
+        padding: 26px;
+        display: inline-block;
+    }
 
     h1 {
         padding-top: 50px;
