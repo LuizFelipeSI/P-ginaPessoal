@@ -314,7 +314,7 @@ footer {
         top: 26px;
         right: 30px;
         border-top-color: transparent;
-
+        
     }
 
     .nav.active .nav-list {
@@ -328,19 +328,14 @@ footer {
         padding-right: 100px;
 
     }
-
+    
 
 }
 
 
-
-
-
-
-
-
 @media (max-width: 500px) {
 
+    
     .menu a {
         background-color: white;
         padding: 26px;
@@ -354,13 +349,13 @@ footer {
     .logo {
         padding-left: 40%;
         padding-top: 30px;
-
+        
     }
 
     .logo img {
         width: 100px;
         height: 100px;
-
+        
     }
 
     .hamburguer::before,
@@ -379,7 +374,7 @@ footer {
         display: block;
         z-index: 1;
         top: 10px;
-
+        
     }
 
     .nav-list {
@@ -458,11 +453,27 @@ footer {
     }
 
     .nav {
-        max-width: 450px;
+        max-width: 100px;
         height: 70px;
         margin-inline: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
