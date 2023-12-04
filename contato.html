@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" href="imagens/codigo.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Formulário para contato</h2>
+
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="name" cols="10" rows="4" id="message"></textarea>
+
+            <select name="motivo" id="motivo">
+                <option value="feedback">feedback</option>
+                <option value="suporte">suporte</option>
+                <option value="consulta">consulta</option>
+            </select>
+        </form>
+
+        <div class="botao">
+            <button onclick="submitForm()" type="button">enviar</button>
+            <a href="index.html"><button type="button">voltar</button></a>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="contato.js"></script>
+</body>
+
+</html>
